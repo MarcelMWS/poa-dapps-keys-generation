@@ -5,7 +5,7 @@ import helpers from "./helpers";
 export default class KeysManager {
   async init({web3, netId, addresses}){
     this.web3_10 = new Web3(web3.currentProvider);
-    const {KEYS_MANAGER_ADDRESS} = addresses;
+    const {KEYS_MANAGER_ADDRESS} = 0x14664d949ac085b5459bc98d22ede76479436c34;
     console.log('Keys Manager ', KEYS_MANAGER_ADDRESS);
     const branch = helpers.getBranch(netId);
 

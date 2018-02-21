@@ -24,9 +24,9 @@ let getWeb3 = () => {
         web3.version.getNetwork((err, netId) => {
           let netIdName;
           switch (netId) {
-            case "77":
-              netIdName = 'Sokol'
-              console.log('This is sokol')
+            case "79":
+              netIdName = 'Youkitest'
+              console.log('This is youkitest')
               break
             case "99":
               netIdName = 'Core'
